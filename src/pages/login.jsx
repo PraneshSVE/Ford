@@ -55,7 +55,7 @@ export default class Login extends Component {
 
   fetchUserData(token) {
     // Fetch user data using the token from the server
-    fetch('/userData', {
+    fetch('https://nodeman-fz28.onrender.com/userData', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
