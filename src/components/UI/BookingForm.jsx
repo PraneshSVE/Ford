@@ -24,7 +24,7 @@ export default class Booking extends Component {
     e.preventDefault();
     const { fname, lname, email, number, text, date, info } = this.state;
     console.log(fname, lname, email, number, text, date, info);
-    fetch("https://nodeman-fz28.onrender.com/register", {
+    fetch("https://info-6654.onrender.com/register", {
       method: "POST",
       crossDomain: true,
       headers: {
