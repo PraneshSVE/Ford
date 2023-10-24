@@ -21,7 +21,7 @@ export default class Login extends Component {
     e.preventDefault();
     const { email, pass } = this.state;
     console.log(email, pass);
-    fetch('http://localhost:5000/login', {
+    fetch('https://nodeman-fz28.onrender.com/login', {
       method: 'POST',
       crossDomain: true,
       headers: {
